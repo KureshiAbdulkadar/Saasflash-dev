@@ -1,0 +1,56 @@
+.main-canvas {
+  background-color: #f3f1ed;
+  position: relative;
+  width: 100%;
+  min-height: 3860px; /* Adjusted to fully contain footer content */
+  color: #333333;
+}
+
+.center-wrapper {
+  width: 1440px; /* Exact Figma Frame Width */
+  margin: 0 auto;
+  position: relative;
+  height: 3690px; /* Exact Figma Frame Height */
+}
+
+.absolute-node {
+  position: absolute;
+}
+
+.flex-node {
+  display: flex;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.shadow-card {
+  box-shadow: -1px -2px 10px 0px rgba(0,0,0,0.21);
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Custom fonts */
+.font-caveat { font-family: 'Caveat', cursive; }
+.font-space-grotesk { font-family: 'Space Grotesk', sans-serif; }
+.font-space-mono { font-family: 'Space Mono', monospace; }
+
+/* Global Image Reset */
+img {
+  max-width: none; /* Let Figma absolute sizing hold */
+  display: block;
+}
+
+/* Specific component fixes */
+a {
+  color: inherit;
+  transition: opacity 0.2s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
